@@ -1,0 +1,82 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:montserrat;
+}
+.container{
+	max-width:1000px;
+	margin:0 auto;
+	background-color:rgb(55, 196, 204);
+	padding:10px;
+}
+.profile-img img{
+	width:110px;
+	height:120px;
+	border:2px white solid;
+	border-radius:40px;
+	float:left
+	
+}
+h1,h2,h3,h4,h5,h6{
+	color:red;
+}
+.name{
+	float:left;
+	padding:20px;
+	
+}
+.contact-info a{
+	text-decoration:none;
+	color:black;
+}
+.contact-info a:hover{
+	color:white;
+	text-decoration:underline;
+}
+.contact-info{
+	float:right;
+}
+.clear-div{
+	clear:both;
+}
+hr{
+	border-top:5px solid black;
+	width:100%;
+	margin:20px auto;
+}
+.personal-info-left{
+	width:30%;
+	float:left;
+}
+.personal-info-right{
+	width:70%;
+	float:left;
+	text-align:justify;
+}
+.work-exp-left{
+	width:30%;
+	float:left;
+}
+.work-exp-right{
+	width:70%;
+	float:left;
+	text-align:justify;
+}
+.edu-left{
+	width:30%;
+	float:left;
+}
+.edu-right{
+	width:70%;
+	float:left;
+}
+.edu-tam-left{
+	width:45%;
+	float:left;
+}
+.edu-tam-right{
+	width:45%;
+	float:left;
+	margin-left:50px;
+}
